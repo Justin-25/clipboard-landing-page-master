@@ -49,12 +49,14 @@
 }
 
 .second-p {
+    width: 730px;
     font-size: 1.2rem;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     color: hsl(201, 11%, 66%);
     line-height: 35px;
     margin-bottom: 50px;
+    margin: 0 auto;
 }
 
 .btn {
@@ -292,4 +294,279 @@
 .social-media a img:focus {
     filter: sepia(50%) saturate(10000%) hue-rotate(140deg);
     cursor: pointer;
+}
+
+@media ( max-width: 375px ) {
+    
+    .title-header .copy-logo {
+        font-size: 9rem;
+        color: hsl(171, 66%, 44%);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    
+    .title-header h1 {
+        width: 320px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.9rem;
+        color: hsl(210, 10%, 33%);   
+        margin: 20px auto;
+    }
+    
+    .first-p {
+        width: 300px;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 25px;
+        margin: 20px auto;
+    }
+    
+    .second-p {
+        width: 300px;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(201, 11%, 66%);
+        line-height: 30px;
+        margin: 0 auto;
+    }
+    
+    .btn {
+        height: 50px;
+        width: 300px;
+        margin: 10px auto;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .ios {
+        margin-top: 30px;
+        background-color: hsl(171, 66%, 44%);
+        box-shadow: 1px 3px 1px hsl(171, 66%, 37%), 
+        1px 10px 30px hsl(171, 71%, 75%);
+    }
+    
+    .ios:hover {
+        background-color: hsl(171, 41%, 56%);
+        cursor: pointer;
+    }
+    
+    .mac {
+        background-color: hsl(233, 100%, 69%);
+        box-shadow: 1px 3px 1px hsl(233, 67%, 56%), 
+        1px 10px 30px rgba(0, 0, 0, 0.209);
+        margin-bottom: 200px;
+    }
+    
+    .mac:hover {
+        background-color: hsl(233, 100%, 76%);
+        cursor: pointer;
+    }
+    
+    .title-header h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: hsl(210, 10%, 33%);   
+        margin-bottom: 20px;   
+    }
+    
+    .Laptop-text {
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 150px;
+        display: flex;
+    }
+    
+    .Laptop-text img {
+        width: 52%;
+        height: fit-content;
+        position: relative;
+        right: 40px;
+        margin-right: 100px;
+    }
+    
+    .text-right {
+        margin-top: 70px;
+    }
+    
+    .text-right h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: start;
+        color: hsl(210, 10%, 33%);   
+        margin-bottom: 10px;
+    }
+    
+    .text-right p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 60px;
+        line-height: 40px;
+    }
+    
+    .devices {
+        display: block;
+        margin: 100px auto;
+    }
+    
+    .devices h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);   
+        margin-bottom: 20px;
+    }
+    
+    .devices img {
+        margin-bottom: 50px;
+    }
+    
+    .devices p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 100px;
+        line-height: 30px;
+    }
+    
+    .info {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 40px;  
+      margin-bottom: 50px;
+    }
+    
+    .info img {
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .info h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);   
+        margin-bottom: 20px;
+    }
+    
+    .info p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(201, 11%, 66%);
+        margin-bottom: 100px;
+        line-height: 30px;
+    }
+    
+    .brand {
+        width: 100%;
+        display: block;
+        margin: 150px auto;
+    }
+    
+    .brand img {
+        height: 40px;
+        margin: 0 70px;
+    }
+    
+    .second-link {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: hsl(210, 10%, 33%);   
+    }
+    
+    .second-link p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(201, 11%, 66%);
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    
+    .second-link .btn {
+        height: 60px;
+        width: 200px;
+        margin: 10px;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 150px;
+    }
+    
+    .footer {
+        width: 100%;
+        height: 150px;
+        background-color: #F5F7F8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 0 auto;
+    }
+    
+    .footer-logo {
+        font-size: 5rem;
+        color: hsl(171, 66%, 44%);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    
+    .social-links {
+        display: flex;
+        margin-right: 400px;
+        margin-left: 100px;
+    }
+    
+    .social-links div p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+        color: hsl(210, 10%, 33%);
+        margin: 20px 30px;
+    }
+    
+    .social-links div p:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+    
+    .social-media{
+        display: flex;
+        align-items: center;
+    }
+    
+    .social-media a {
+        display: inline-block;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 10px;
+    }
+    
+    .social-media img {
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+    }
+    
+    .social-media a img:hover, 
+    .social-media a img:focus {
+        filter: sepia(50%) saturate(10000%) hue-rotate(140deg);
+        cursor: pointer;
+    }
 }
